@@ -1,0 +1,78 @@
+repositories:
+  - source: "caleee/mosdns"                 # Github 原始仓库
+    fork: "zejunxu/mosdns-caleee-bak"       # 自己的 Fork 仓库
+    gitee: "zejunxu/mosdns-caleee-bak"      # Gitee 仓库
+    branch: "main"
+    schedule: "0 1 * * *"                   # 每天UTC 1点同步
+
+  - source: "MetaCubeX/metacubexd"
+    fork: "zejunxu/metacubexd-bak"
+    gitee: "zejunxu/metacubexd-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "hagezi/dns-blocklists"
+    fork: "zejunxu/dns-blocklists-bak"
+    gitee: "zejunxu/dns-blocklists-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "MetaCubeX/meta-rules-dat"
+    fork: "zejunxu/meta-rules-dat-bak"
+    gitee: "zejunxu/meta-rules-dat-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "217heidai/OpenWrt-Builder"
+    fork: "zejunxu/OpenWrt-Builder"
+    gitee: "zejunxu/OpenWrt-Builder"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "SagerNet/sing-box"
+    fork: "zejunxu/sing-box-bak"
+    gitee: "zejunxu/sing-box-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "MetaCubeX/mihomo"
+    fork: "zejunxu/mihomo-bak"
+    gitee: "zejunxu/mihomo-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "pymumu/smartdns"
+    fork: "zejunxu/smartdns-bak"
+    gitee: "zejunxu/smartdns-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+ - source: "AlistGo/alist"
+    fork: "zejunxu/alist-bak"
+    gitee: "zejunxu/alist-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "AdguardTeam/AdGuardHome"
+    fork: "zejunxu/AdGuardHome-bak"
+    gitee: "zejunxu/AdGuardHome-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "gdy666/lucky"
+    fork: "zejunxu/lucky-bak"
+    gitee: "zejunxu/lucky-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "217heidai/NestingDNS"
+    fork: "zejunxu/NestingDNS-bak"
+    gitee: "zejunxu/NestingDNS-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
+
+  - source: "IrineSistiana/mosdns"
+    fork: "zejunxu/mosdns-bak"
+    gitee: "zejunxu/mosdns-bak"
+    branch: "main"
+    schedule: "0 1 * * *"
