@@ -1,0 +1,21 @@
+name: Sync Upstream - {{repo}}
+
+on:
+  schedule:
+    - cron: '{{schedule}}'
+  workflow_dispatch:
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sync Fork
+        uses: actions-ecosystem/action-repo-sync@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GLOBAL_PAT }}
+        with:
+          source_repo: "{{repo}}"
+          destination_repo: "{{fork}}"
+          source_branch: "{{branch}}"
+          destination_branch: "{{branch}}"
+          force_push: true
